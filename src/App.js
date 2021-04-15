@@ -25,6 +25,7 @@ function App() {
 
     return (
         <div className="App">
+            <h2>Анонимизатор текста</h2>
             <div className="PPPPPPPP">
                 <textarea placeholder="Текст для очистки"
                 onChange={(e) => {setRawText(e.target.value)}} 
@@ -45,8 +46,11 @@ function App() {
                     </div>
                 </div>
             </div>
+            <div>
+                <h3>Вычищенный текст</h3>
             <div className="ToDisplay">
-                { displayedText || 'Вычищенный текст' }
+                { displayedText }
+            </div>
             </div>
         </div>
     );
