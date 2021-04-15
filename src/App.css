@@ -27,6 +27,7 @@
 
 .ToDisplay {
   border: 1px rgba(0,0,0,0.5) dashed;
+  white-space: pre-line;
   padding: 20px;
 }
 

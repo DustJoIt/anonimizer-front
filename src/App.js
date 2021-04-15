@@ -47,10 +47,10 @@ function App() {
                 </div>
             </div>
             <div>
-                <h3>Вычищенный текст</h3>
-            <div className="ToDisplay">
-                { displayedText }
-            </div>
+                <h3>Обезличенный текст</h3>
+                <div className="ToDisplay">
+                    { displayedText }
+                </div>
             </div>
         </div>
     );
