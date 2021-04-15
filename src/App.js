@@ -40,8 +40,8 @@ function App() {
                         <label for="LOC">Места</label><br />
                         <input type="checkbox" id="ORG" onChange={(e) => {setOptions(prev => ({...prev, ORG: e.target.checked}))}} checked={options['ORG']} />
                         <label for="ORG">Организации</label><br />
-                        <input type="checkbox" id="DAT" onChange={(e) => {setOptions(prev => ({...prev, DAT: e.target.checked}))}} checked={options['DAT']} />
-                        <label for="DAT">Даты</label>
+                        <input type="checkbox" id="DATE" onChange={(e) => {setOptions(prev => ({...prev, DATE: e.target.checked}))}} checked={options['DATE']} />
+                        <label for="DATE">Даты</label>
                     </div>
                 </div>
             </div>
